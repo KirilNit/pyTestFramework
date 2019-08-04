@@ -42,7 +42,7 @@ class WebDriver(object):
     def wait_for_web_element_to_be_clickable(self, element, timeout=False):
         wait = WebDriverWait(self.driver, timeout=timeout if timeout else self.timeout)
         self.logger.info("Waiting for WebElement with locator {}".format(element))
-        messageError = "Element with locator {} was not visible after {} seconds".format(element,
+        messageError = "Element with locator {} was not clickable after {} seconds".format(element,
                                                                                          timeout if timeout else self.timeout)
         self.wait_for_visibility_of_web_element(element)
         web_element = wait.until(EC.element_to_be_clickable((By.XPATH, element)), message=messageError)
@@ -51,7 +51,7 @@ class WebDriver(object):
     def wait_for_presence_of_element_located(self, element, timeout=False):
         wait = WebDriverWait(self.driver, timeout=timeout if timeout else self.timeout)
         self.logger.info("Waiting for WebElement with locator {}".format(element))
-        messageError = "Element with locator {} was not visible after {} seconds".format(element,
+        messageError = "Element with locator {} was not зкуыуте after {} seconds".format(element,
                                                                                          timeout if timeout else self.timeout)
         self.wait_for_visibility_of_web_element(element)
         web_element = wait.until(EC.presence_of_element_located((By.XPATH, element)), message=messageError)
