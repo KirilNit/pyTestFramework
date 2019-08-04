@@ -70,7 +70,6 @@ class WebDriver(object):
 
     def set_web_element_text(self, element, text):
         try:
-            # web_element = self.wait_for_web_element_to_be_located(element)
             web_element = self.driver.find_element_by_xpath(element)
             web_element.clear()
             web_element.send_keys(text)
