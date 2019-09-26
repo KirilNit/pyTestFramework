@@ -6,7 +6,7 @@ class Test_Loging_():
     # def setUpClass(cls):
     #     cls.login = "ptest9695@gmail.com"
     #     cls.password = "test01#21"
-    #     super(Test_Loging_, cls)
+    #     super(Test_Loging_,cls)
 
     def test_login_gmail(self, invoke):
         login = "ptest9695@gmail.com"
