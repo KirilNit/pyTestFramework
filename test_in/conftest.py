@@ -9,8 +9,3 @@ def invoke(request):
 
     return _driver
 
-# @pytest.fixture(scope='session', autouse=True)
-# def close(request, driver):
-#     def fin():
-#         driver.quit()
-#     request.addfinalizer()
