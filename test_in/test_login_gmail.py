@@ -16,7 +16,7 @@ class Test_Loging_():
         '''
         login = "ptest9695@gmail.com"
         password = "test01#21"
-
+        #for revert
         loggin_page = logging_page.LoggingPage(invoke)
         loggin_page.go_to_logging_page()
         loggin_page.do_login(login, password)
