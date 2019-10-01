@@ -20,3 +20,5 @@ class Test_Loging_():
         loggin_page = logging_page.LoggingPage(invoke)
         loggin_page.go_to_logging_page()
         loggin_page.do_login(login, password)
+
+        #1
