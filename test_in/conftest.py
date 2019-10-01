@@ -10,3 +10,7 @@ def invoke(request):
 
     return _driver
 
+@pytest.mark.usefixtures('invoke')
+def loging_page(request):
+    pass
+
