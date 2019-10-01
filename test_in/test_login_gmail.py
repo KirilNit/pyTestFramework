@@ -22,3 +22,5 @@ class Test_Loging_():
         loggin_page.do_login(login, password)
 
         #1
+
+    #3
