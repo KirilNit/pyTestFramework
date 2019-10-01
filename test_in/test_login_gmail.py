@@ -25,3 +25,5 @@ class Test_Loging_():
 
     #3
 
+    #4
+
