@@ -21,10 +21,3 @@ class Test_Loging_():
         loggin_page.go_to_logging_page()
         loggin_page.do_login(login, password)
 
-        #1
-
-    #3
-
-    #4
-    #5
-
