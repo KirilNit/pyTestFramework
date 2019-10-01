@@ -12,7 +12,7 @@ class Test_Loging_():
         '''
 
         :param invoke:
-        :return:
+        :return: no return
         '''
         login = "ptest9695@gmail.com"
         password = "test01#21"
@@ -20,4 +20,3 @@ class Test_Loging_():
         loggin_page = logging_page.LoggingPage(invoke)
         loggin_page.go_to_logging_page()
         loggin_page.do_login(login, password)
-
