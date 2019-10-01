@@ -12,5 +12,6 @@ def invoke(request):
 
 @pytest.mark.usefixtures('invoke')
 def loging_page(request):
+    """new comment"""
     pass
 
