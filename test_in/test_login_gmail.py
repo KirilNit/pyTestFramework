@@ -9,11 +9,6 @@ class Test_Loging_():
     #     super(Test_Loging_,cls)
 
     def test_login_gmail(self, invoke):
-        '''
-
-        :param invoke:
-        :return:
-        '''
         login = "ptest9695@gmail.com"
         password = "test01#21"
 
