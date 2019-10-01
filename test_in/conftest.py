@@ -4,6 +4,7 @@ from selenium import webdriver
 
 @pytest.yield_fixture(scope='session')
 def invoke(request):
+    """invoke"""
     options = webdriver.ChromeOptions()
     options.add_experimental_option('w3c', False)
     _driver = webdriver.Chrome(options=options)
